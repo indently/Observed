@@ -32,7 +32,7 @@ struct ContentView: View {
     @StateObject var stuff = Stuff()
     
     var body: some View {
-        VStack(spacing: 30) {©
+        VStack(spacing: 30) {
             Text("\(stuff.text)")
                 .font(.largeTitle)
      
