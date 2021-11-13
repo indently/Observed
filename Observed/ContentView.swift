@@ -44,7 +44,7 @@ struct ContentView: View {
                 stuff.counter += 1
             }
             .foregroundColor(.orange)
-
+            SampleView(stuff: stuff)
         }
     }
 }
